@@ -44,12 +44,7 @@ public class MainActivity extends AppCompatActivity {
                     storyTextView.setText(R.string.T3_Story);
                     buttonTop.setText(R.string.T3_Ans1);
                     buttonBottom.setText(R.string.T3_Ans2);
-                    mStoryIndex = 4;
-                }
-                else if(mStoryIndex == 4){
-                    storyTextView.setText(R.string.T6_End);
-                    buttonTop.setVisibility(View.GONE);
-                    buttonBottom.setVisibility(View.GONE);
+                    mStoryIndex = 2;
                 }
             }
         });
@@ -71,11 +66,6 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else if (mStoryIndex == 3){
                     storyTextView.setText(R.string.T4_End);
-                    buttonTop.setVisibility(View.GONE);
-                    buttonBottom.setVisibility(View.GONE);
-                }
-                else if(mStoryIndex == 4){
-                    storyTextView.setText(R.string.T5_End);
                     buttonTop.setVisibility(View.GONE);
                     buttonBottom.setVisibility(View.GONE);
                 }
